@@ -1,10 +1,10 @@
 module.exports = {
   title: 'React Motion Layout',
   tagline: 'Beautiful React hero animations.',
-  url: 'http://motion-layout.com/reacto-motion-layout',
-  baseUrl: '/',
+  url: 'https://weisk.github.io',
+  baseUrl: '/react-motion-layout/',
   favicon: 'img/favicon.ico',
-  organizationName: 'jeffersonlicet', // Usually your GitHub org/user name.
+  organizationName: 'weisk', // Usually your GitHub org/user name.
   projectName: 'React Motion Layout', // Usually your repo name.
   themeConfig: {
     colorMode: {
@@ -19,9 +19,9 @@ module.exports = {
       content:
         '<span class="text-white">⭐️ If you like Motion Layout, give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/jeffersonlicet/react-motion-layout">GitHub</a>! ⭐️</span>',
     },
-    googleAnalytics: {
-      trackingID: 'UA-56940433-12',
-    },
+    // googleAnalytics: {
+    //   trackingID: 'UA-56940433-12',
+    // },
     prism: {
       theme: require('prism-react-renderer/themes/dracula'),
     },
@@ -31,7 +31,7 @@ module.exports = {
         alt: 'Motion Layout',
         src: 'img/logo.png',
       },
-      links: [
+      items: [
         {
           to: 'docs/installation',
           activeBasePath: 'docs',
@@ -39,7 +39,7 @@ module.exports = {
           position: 'left',
         },
         {
-          href: 'https://github.com/jeffersonlicet/react-motion-layout',
+          href: 'https://github.com/weisk/react-motion-layout',
           label: 'GitHub',
           position: 'right',
         },
@@ -110,5 +110,5 @@ module.exports = {
     'https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css',
     'https://fonts.googleapis.com/css?family=Baloo+Chettan+2:400,700&display=swap',
   ],
-  plugins: ['@docusaurus/plugin-google-analytics'],
+  // plugins: ['@docusaurus/plugin-google-analytics'],
 };
